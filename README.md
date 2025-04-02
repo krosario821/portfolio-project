@@ -6,3 +6,4 @@ Im half ecuadorian and dominican
 I do taekwondo, I love to cook 
 I love babies/kids and animals 
 ![Wireframe](Untitled@2x.png)
+![Logo](app.logomakr.com/2GNLVn) 
