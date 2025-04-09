@@ -7,3 +7,4 @@ I do taekwondo, I love to cook
 I love babies/kids and animals 
 ![Wireframe](Untitled@2x.png)
 ![Logo](Kailey.png)
+Add homepage index.html
