@@ -1,63 +1,103 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #f3e5f5, #e1bee7, #ce93d8);
-    color: #4a148c;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header Styling */
-  header {
-    background-color: #ba68c8;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-    border-bottom: 5px solid #9c27b0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Logo */
-  header img {
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-  }
-  
-  /* Navigation */
-  nav {
-    margin-top: 10px;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f3e5f5, #e1bee7, #ce93d8);
+  color: #4a148c;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #ba68c8;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 5px solid #9c27b0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+header img {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fce4ec;
+}
+
+/* Main Section */
+main {
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h2, h3 {
+  color: #6a1b9a;
+  margin-top: 0;
+}
+
+/* Paragraphs and Lists */
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/* Images (Project and Profile) */
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #9c27b0;
+  color: white;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
   nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    display: block;
+    margin: 10px 0;
   }
-  
-  nav a:hover {
-    color: #fce4ec;
+
+  header, main {
+    padding: 20px 10px;
   }
-  
-  /* Main Section */
-  main {
-    padding: 40px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  main img {
+    width: 100%;
   }
-  
-  /* Section Headings */
-  h2, h3 {
-    color: #6a1b9a;
-  }
-  
-  /* List Styling */
-  ul {
-    list-style-type: circle;
-    padding-left: 20px;
-    line-height: 1.8;
-  }
+}
   
