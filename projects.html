@@ -3,14 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Kailey Rosario</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <title>Kailey Rosario | Projects</title>
 
-<body>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .section {
+      background-color: rgba(255, 255, 255, 0.04);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .section h3 {
+      color: #ffd1f7;
+      margin-bottom: 10px;
+    }
+
+    .section ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .section a {
+      text-decoration: none;
+      color: #b39ddb;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="galaxy-theme">
   <header>
     <div class="header-container">
-      <img src="Kailey.png" alt="Kailey Logo" width="80" />
+      <img src="Kailey.png" alt="Kailey Logo" class="logo" />
       <h1>Kailey Rosario</h1>
     </div>
     <nav>
@@ -23,33 +56,39 @@
     </nav>
   </header>
 
-  <main>
-    <section class="section projects-section">
+  <main class="container">
+    <section class="section">
       <h2>My Projects</h2>
+      <p>
+        Here are some of the projects I’ve been working on as part of my computer science journey. These reflect my growth in coding, web design, and real-world application of what I'm learning.
+      </p>
+    </section>
 
-      <div class="project-card">
-        <h3>Magic Weather App</h3>
-        <img src="magic-weather.png" alt="Magic Weather App Screenshot" class="project-img" />
-        <p>
-          A fun and fictional weather app blending real-time forecasts with magical elements like “Unicorn Fog” or “Dragon Heatwaves.” Built using HTML, CSS, and JavaScript to practice dynamic content and playful UI.
-        </p>
-      </div>
+    <section class="section">
+      <h3>🌐 Personal Portfolio Website</h3>
+      <p>
+        This is the website you're currently viewing! I built it using HTML and CSS with a focus on clean structure and responsive design.
+      </p>
+      <ul>
+        <li>Fully responsive across devices</li>
+        <li>Custom galaxy-themed styling</li>
+        <li>Accessible and easy to navigate</li>
+      </ul>
+    </section>
 
-      <div class="project-card">
-        <h3>Dream Journal Website</h3>
-        <img src="dream-journal.png" alt="Dream Journal Screenshot" class="project-img" />
-        <p>
-          A calming digital journal for users to record dreams. Created with beginner-friendly HTML and CSS. This helped me understand layout techniques, form handling, and basic user interface design.
-        </p>
-      </div>
+    <section class="section">
+      <h3>💻 GitHub Projects</h3>
+      <p>
+        I regularly update beginner-friendly C++ programs and Java exercises on my GitHub. It’s a work in progress, but I love seeing how far I’ve come!
+      </p>
+      <a href="https://github.com/YOUR_USERNAME" target="_blank">🔗 View my GitHub</a>
+    </section>
 
-      <div class="project-card">
-        <h3>Space Travel Blog</h3>
-        <img src="space-blog.png" alt="Space Travel Blog Screenshot" class="project-img" />
-        <p>
-          A blog for imaginary astronauts sharing their stories from space. Focused on clean structure and visual formatting using semantic HTML and styled blog sections with CSS.
-        </p>
-      </div>
+    <section class="section">
+      <h3>📱 Java Practice</h3>
+      <p>
+        I’m currently learning core Java concepts like methods, overloading and overriding, and object-oriented programming. More practice projects coming soon!
+      </p>
     </section>
   </main>
 
@@ -58,3 +97,4 @@
   </footer>
 </body>
 </html>
+
