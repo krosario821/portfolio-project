@@ -1,3 +1,73 @@
+/* About Page Specific Styles */
+.profile-img {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+.about-section {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-section h2 {
+  text-align: center;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-size: 1em;
+}
+
+/* Responsive Tweaks for About Page */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 25px;
+  }
+
+  .profile-img {
+    width: 140px;
+  }
+
+  .about-section h2 {
+    font-size: 1.5em;
+  }
+
+  .about-section p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 120px;
+  }
+
+  .about-section h2 {
+    font-size: 1.3em;
+  }
+
+  .about-section p {
+    font-size: 0.9em;
+  }
+}
+
+.navbar
+{
+  align-items: center;
+}
 body.galaxy-theme {
   font-family: 'Poppins', sans-serif;
   background: radial-gradient(ellipse at top, #1a0033, #000);
@@ -70,4 +140,3 @@ footer {
   background-color: #0b001a;
   font-size: 0.9em;
 }
-  
