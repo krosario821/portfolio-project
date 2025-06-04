@@ -12,12 +12,42 @@
   <link rel="stylesheet" href="styles.css" />
 
   <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #0b0c2a;
+      color: white;
+    }
+
     .section {
       background-color: rgba(255, 255, 255, 0.04);
       border-radius: 12px;
       padding: 30px;
       margin-bottom: 30px;
       box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .section:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .section:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    .section:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+    .section:nth-child(5) {
+      animation-delay: 0.8s;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .section h3 {
@@ -45,6 +75,75 @@
       border-radius: 10px;
       margin-bottom: 15px;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-image:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    header {
+      background: linear-gradient(to right, #1b1d4d, #3c3d80);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #ffd1f7;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #ddd;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links .active {
+      color: #ffd1f7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+      background: #0a0a1f;
     }
   </style>
 </head>
